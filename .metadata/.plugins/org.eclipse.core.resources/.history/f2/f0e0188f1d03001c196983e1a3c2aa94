@@ -1,0 +1,12 @@
+package exercise_1;
+
+import java.util.Calendar;
+
+public class Exercise_1_1 {
+	
+	Calendar calendar = Calendar.getInstance();
+	calendar.s
+	
+//	Book book1 = new Book();
+
+}
