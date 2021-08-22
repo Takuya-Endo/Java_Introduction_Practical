@@ -45,6 +45,9 @@ public class Exercise_1_1 {
 		setBooks.add(book3);
 		setBooks.add(book4);
 		setBooks.add(book5);
+		for (int i = 0; i < 5; i++) {
+			setBooks.add("book" + 1);
+		}
 		book5 = new Book("本No.5", date2, "No.5コメント");
 		setBooks.remove(book5);
 		System.out.println("");
@@ -52,15 +55,6 @@ public class Exercise_1_1 {
 		
 		List<Book> listBooks = new ArrayList<Book>();
 		listBooks.add(book1);
-		listBooks.add(book2);
-		listBooks.add(book3);
-		listBooks.add(book4);
-		listBooks.add(book5);
-		System.out.println("");
-		System.out.println("ArrayList格納要素");
-		for (Book listElement : listBooks) {
-			System.out.println(listElement);
-		}
 		
 	}
 	

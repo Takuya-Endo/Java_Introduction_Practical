@@ -1,10 +1,8 @@
 package exercise_1;
 
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 public class Exercise_1_1 {
@@ -51,16 +49,7 @@ public class Exercise_1_1 {
 		System.out.println("booksの要素数：" + setBooks.size());
 		
 		List<Book> listBooks = new ArrayList<Book>();
-		listBooks.add(book1);
-		listBooks.add(book2);
-		listBooks.add(book3);
-		listBooks.add(book4);
-		listBooks.add(book5);
-		System.out.println("");
-		System.out.println("ArrayList格納要素");
-		for (Book listElement : listBooks) {
-			System.out.println(listElement);
-		}
+		
 		
 	}
 	
