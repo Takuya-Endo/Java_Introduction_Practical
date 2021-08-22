@@ -43,10 +43,7 @@ public class Exercise_1_1 {
 		books.add(book3);
 		books.add(book4);
 		books.add(book5);
-		book5 = new Book("本No.5", date2, "No.5コメント");
-		books.remove(book5);
-		System.out.println("");
-		System.out.println("booksの要素数：" + books.size());
+		System.out.println(book5);
 		
 	}
 	
