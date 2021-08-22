@@ -2,8 +2,6 @@ package exercise_1;
 
 import java.util.Calendar;
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
 
 public class Exercise_1_1 {
 	
@@ -37,12 +35,7 @@ public class Exercise_1_1 {
 		System.out.println(book1);
 		System.out.println(book5);
 		
-		Set<Book> books = new HashSet<Book>();
-		books.add(book1);
-		books.add(book2);
-		books.add(book3);
-		books.add(book4);
-		books.add(book5);
+		Set<Book> books = new HashSet<book>();
 		
 	}
 	

@@ -39,10 +39,10 @@ public class Exercise_1_1 {
 		
 		Set<Book> books = new HashSet<Book>();
 		books.add(book1);
-		books.add(book2);
-		books.add(book3);
-		books.add(book4);
-		books.add(book5);
+		books.add(book1);
+		books.add(book1);
+		books.add(book1);
+		books.add(book1);
 		
 	}
 	
