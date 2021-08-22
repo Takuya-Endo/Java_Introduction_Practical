@@ -39,7 +39,7 @@ public class Book {
 		
 		Book book = (Book) object;
 		
-		if ( (this.title.equals(book.title)) && (this.publishDate == book.publishDate) ) {
+		if ( (this.title == book.title) && (this.publishDate == book.publishDate) ) {
 			return true;
 		}
 		
