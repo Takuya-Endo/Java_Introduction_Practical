@@ -51,6 +51,10 @@ public class Exercise_1_1 {
 		System.out.println("booksの要素数：" + setBooks.size());
 		
 		List<Book> listBooks = new ArrayList<Book>();
+		for (int i = 0; i < 5; i++) {
+			String bookNumber = "book" + i;
+			listBooks.add(bookNumber);
+		}
 		listBooks.add(book1);
 		listBooks.add(book2);
 		listBooks.add(book3);
@@ -61,7 +65,7 @@ public class Exercise_1_1 {
 		for (Book listElement : listBooks) {
 			System.out.println(listElement);
 		}
-		System.out.println("");
+		
 		for (int i = 0; i < 5; i++) {
 			System.out.println(listBooks.get(i));
 		}
