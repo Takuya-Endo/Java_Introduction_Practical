@@ -49,17 +49,12 @@ public class Exercise_1_1 {
 		setBooks.remove(book5);
 		System.out.println("");
 		System.out.println("booksの要素数：" + setBooks.size());
-
-		calendar.set(2021, 5, 6);
-		Book book6 = new Book("本No.6", calendar.getTime(), "No.6コメント");
-		calendar.set(2021, 7, 7);
-		Book book7 = new Book("本No.7", calendar.getTime(), "No.7コメント");
-		calendar.set(2021, 6, 8);
-		Book book8 = new Book("本No.8", calendar.getTime(), "No.8コメント");
-		calendar.set(2021, 9, 9);
-		Book book9 = new Book("本No.9", calendar.getTime(), "No.9コメント");
-		calendar.set(2021, 8, 10);
-		Book book10 = new Book("本No.10", calendar.getTime(), "No.10コメント");
+		
+		Book book6 = new Book("本No.6", new Date(101010101010), "No.6コメント");
+		Book book7 = new Book("本No.7", date2, "No.7コメント");
+		Book book8 = new Book("本No.8", date1, "No.8コメント");
+		Book book9 = new Book("本No.9", date1, "No.9コメント");
+		Book book10 = new Book("本No.10", date2, "No.10コメント");
 		
 		List<Book> listBooks = new ArrayList<Book>();
 		listBooks.add(book6);
@@ -74,7 +69,7 @@ public class Exercise_1_1 {
 		}
 		System.out.println("");
 		
-		List.sort(listBooks);
+//		listBooks.sort();
 		
 	}
 	

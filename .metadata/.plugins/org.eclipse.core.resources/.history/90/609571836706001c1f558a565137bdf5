@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Objects;
 
-public class Book implements Comparable<Book> {
+public class Book {
 	
 	private String title;
 	private Date publishDate;
@@ -45,12 +45,6 @@ public class Book implements Comparable<Book> {
 	
 	public int hashCode() {
 		return Objects.hash(this.title, this.publishDate, this.comment);
-	}
-	
-	public int compareTo(Book object) {
-//		if (this.publishDate < object.publishDate) {
-			return -1;
-		}
 	}
 	
 }

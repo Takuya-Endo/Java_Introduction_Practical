@@ -47,10 +47,8 @@ public class Book implements Comparable<Book> {
 		return Objects.hash(this.title, this.publishDate, this.comment);
 	}
 	
-	public int compareTo(Book object) {
-//		if (this.publishDate < object.publishDate) {
-			return -1;
-		}
+	public int compareTo() {
+		return ;
 	}
 	
 }

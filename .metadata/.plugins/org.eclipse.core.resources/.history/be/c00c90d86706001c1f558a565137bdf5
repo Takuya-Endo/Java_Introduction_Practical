@@ -2,6 +2,7 @@ package exercise_1;
 
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Collection;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
@@ -74,7 +75,7 @@ public class Exercise_1_1 {
 		}
 		System.out.println("");
 		
-		List.sort(listBooks);
+		Collection.sort(listBooks);
 		
 	}
 	
