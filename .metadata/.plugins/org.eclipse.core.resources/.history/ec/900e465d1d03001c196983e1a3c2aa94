@@ -1,9 +1,0 @@
-package exercise_1;
-
-public class Exercise_1_1 {
-	
-	Calendar 
-	
-	Book book1 = new Book();
-
-}
