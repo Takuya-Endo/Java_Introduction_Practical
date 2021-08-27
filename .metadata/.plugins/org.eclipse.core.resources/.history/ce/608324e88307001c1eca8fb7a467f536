@@ -1,0 +1,13 @@
+package exercise_3;
+
+import java.util.*;
+
+public class Exercise_3 {
+	
+	public static void main(String[] args) {
+		
+		Function<Integer, Bsoolean> func1 = FuncList::isOdd;
+		
+	}
+
+}

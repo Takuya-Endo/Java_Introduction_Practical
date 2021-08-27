@@ -13,7 +13,7 @@ public class Exercise_3 {
 		BiFunction<Integer, String, String> func2 = funcList::passCheck;
 		
 		System.out.println(func1.apply(95));
-		System.out.println(func2.apply(95, "佐藤"));
+		System.out.println(func2.apply(90));
 		
 	}
 
