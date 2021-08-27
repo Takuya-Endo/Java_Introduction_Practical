@@ -33,9 +33,7 @@ public class Exercise_3 {
 		names.add("朝香あゆみ");
 		names.add("大江岳人");
 		names.add("菅原拓真");
-		names.add("湊雄輔");
-		
-		System.out.println(names);
+		names.add("");
 		
 	}
 

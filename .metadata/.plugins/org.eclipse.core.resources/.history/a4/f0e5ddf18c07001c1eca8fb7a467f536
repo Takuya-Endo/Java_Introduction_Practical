@@ -1,7 +1,5 @@
 package exercise_3;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
@@ -30,12 +28,6 @@ public class Exercise_3 {
 		System.out.println(func2r.gouhi(95, "佐藤"));
 		
 		List<String> names = new ArrayList<String>();
-		names.add("朝香あゆみ");
-		names.add("大江岳人");
-		names.add("菅原拓真");
-		names.add("湊雄輔");
-		
-		System.out.println(names);
 		
 	}
 
