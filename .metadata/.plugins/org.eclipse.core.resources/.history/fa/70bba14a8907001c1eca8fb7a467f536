@@ -4,6 +4,6 @@ package exercise_3;
 
 public interface Func1 {	
 	
-	public abstract boolean kisu(int number);
+	public abstract boolean process(int number);
 
 }

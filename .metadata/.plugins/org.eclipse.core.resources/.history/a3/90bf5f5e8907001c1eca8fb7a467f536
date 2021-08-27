@@ -4,6 +4,6 @@ package exercise_3;
 
 public interface Func2 {
 	
-	public String gouhi(int point, String name);
+	public String process(int point, String name);
 
 }

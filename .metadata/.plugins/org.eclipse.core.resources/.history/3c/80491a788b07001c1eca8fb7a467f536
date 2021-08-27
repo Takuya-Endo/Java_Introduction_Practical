@@ -15,15 +15,13 @@ public class Exercise_3 {
 		FuncList funcList = new FuncList();
 		BiFunction<Integer, String, String> func02 = funcList::passCheck;
 		Func2 func2f = funcList::passCheck;
-//		Func2 func2 = (int point, String name) -> { return name + "さんは" + (point > 65 ? "合格" : "不合格"); };
-		Func2 func2r = (point, name) -> name + "さんは" + (point > 65 ? "合格" : "不合格");
+		Func2 func2 = (int point, String name) -> { return name + "さんは" + (point > 65 ? "合格" : "不合格"); };
 		
 		System.out.println(func01.apply(95));
 		System.out.println(func1f.kisu(95));
 		System.out.println(func1r.kisu(95));
 		System.out.println(func02.apply(95, "佐藤"));
 		System.out.println(func2f.gouhi(95, "佐藤"));
-		System.out.println(func2r.gouhi(95, "佐藤"));
 		
 	}
 
