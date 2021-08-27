@@ -83,15 +83,12 @@ public class Exercise_1_1 {
 		System.out.println(book1clone);
 		
 		List<Book> exerciseBooks = new ArrayList<Book>();
-		calendar.set(2011, 10, 7);
-		exerciseBooks.add(new Book("Java入門", calendar.getTime(), "スッキリわかる"));
-		calendar.set(2019, 6, 11);
-		exerciseBooks.add(new Book("Python入門", calendar.getTime(), "カレーが食べたくなる"));
-		calendar.set(2018, 6, 21);
-		exerciseBooks.add(new Book("C言語入門", calendar.getTime(), "ポインタも自由自在"));
-		Collections.sort(exerciseBooks, titleComparator);
-		System.out.println("");
-		System.out.println("書名順" + exerciseBooks);
+		calendar.set(2021, 5, 6);
+		exerciseBooks.add(new Book("オ", calendar.getTime(), "6"));
+		calendar.set(2021, 5, 6);
+		exerciseBooks.add(new Book("オ", calendar.getTime(), "6"));
+		calendar.set(2021, 5, 6);
+		exerciseBooks.add(new Book("オ", calendar.getTime(), "6"));
 		
 	}
 	
