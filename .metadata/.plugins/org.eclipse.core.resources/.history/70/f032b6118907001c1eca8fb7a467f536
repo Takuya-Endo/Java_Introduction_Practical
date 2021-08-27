@@ -17,7 +17,7 @@ public class Exercise_3 {
 		System.out.println(func01.apply(95));
 		System.out.println(func1.process(95));
 		System.out.println(func02.apply(95, "佐藤"));
-		System.out.println(func2.process(95, "佐藤"));
+		System.out.println(func2.apply(95, "佐藤"));
 		
 	}
 
