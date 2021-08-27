@@ -15,17 +15,9 @@ public class StrongBox<Element> {
 	
 	public Element get() {
 		switch (this.keyType) {
-		case PADLOCK:
-			return this.element;
-		case BUTTON:
-			return this.element;
-		case DIAL:
-			return this.element;
-		case FINGER:
-			return this.element;
-		default:
-			return this.element;
+		case PADLOCK :
 		}
+		return this.element;
 	}
 
 }

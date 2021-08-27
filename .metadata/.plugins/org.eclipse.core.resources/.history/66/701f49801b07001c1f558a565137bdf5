@@ -23,9 +23,8 @@ public class StrongBox<Element> {
 			return this.element;
 		case FINGER:
 			return this.element;
-		default:
-			return this.element;
 		}
+		return this.element;
 	}
 
 }
