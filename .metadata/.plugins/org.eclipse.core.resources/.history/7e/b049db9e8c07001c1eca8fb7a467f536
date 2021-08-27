@@ -11,7 +11,6 @@ public class Exercise_3 {
 		Func1 func1f = FuncList::isOdd;
 //		Func1 func1r = (int x) -> { return x % 2 == 1; };
 		Func1 func1r = x -> x % 2 == 1;
-		Function<Integer, Boolean> func1b = x -> x % 2 == 1;
 		
 		FuncList funcList = new FuncList();
 		BiFunction<Integer, String, String> func02 = funcList::passCheck;
@@ -22,7 +21,6 @@ public class Exercise_3 {
 		System.out.println(func01.apply(95));
 		System.out.println(func1f.kisu(95));
 		System.out.println(func1r.kisu(95));
-		System.out.println(func1b.apply(95));
 		System.out.println(func02.apply(95, "佐藤"));
 		System.out.println(func2f.gouhi(95, "佐藤"));
 		System.out.println(func2r.gouhi(95, "佐藤"));
