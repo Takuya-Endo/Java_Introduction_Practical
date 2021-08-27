@@ -1,0 +1,9 @@
+package exercise_2;
+
+public class StrongBox<Element> {
+	
+	public void put() {
+		
+	}
+
+}
