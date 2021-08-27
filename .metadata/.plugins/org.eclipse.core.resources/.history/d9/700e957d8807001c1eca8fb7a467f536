@@ -3,7 +3,7 @@ package exercise_3;
 import java.util.function.BiFunction;
 import java.util.function.Function;
 
-public class Exercise_3 {
+public class Exercise_3 implements Func1 {
 	
 	public static void main(String[] args) {
 		
@@ -14,7 +14,7 @@ public class Exercise_3 {
 		BiFunction<Integer, String, String> func02 = funcList::passCheck;
 		
 		System.out.println(func01.apply(95));
-		System.out.println(func1.process(95));
+		System.out.println(func1.apply(95));
 		System.out.println(func02.apply(95, "佐藤"));
 		
 	}

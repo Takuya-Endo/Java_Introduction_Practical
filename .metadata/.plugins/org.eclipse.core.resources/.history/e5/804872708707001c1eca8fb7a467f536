@@ -1,6 +1,6 @@
 package exercise_3;
 
-public class FuncList {
+public class FuncList implements Func1 {
 	
 	public static boolean isOdd(int x) {
 		
@@ -14,4 +14,6 @@ public class FuncList {
 		
 	}
 	
+	public void process(int x, boolean odd)
+
 }

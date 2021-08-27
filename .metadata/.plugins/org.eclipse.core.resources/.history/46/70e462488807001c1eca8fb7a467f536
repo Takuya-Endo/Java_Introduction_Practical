@@ -8,13 +8,12 @@ public class Exercise_3 {
 	public static void main(String[] args) {
 		
 		Function<Integer, Boolean> func01 = FuncList::isOdd;
-		Func1 func1 = FuncList::isOdd;
+		Func1 func1 = Func::isOdd;
 		
 		FuncList funcList = new FuncList();
 		BiFunction<Integer, String, String> func02 = funcList::passCheck;
 		
 		System.out.println(func01.apply(95));
-		System.out.println(func1.process(95));
 		System.out.println(func02.apply(95, "佐藤"));
 		
 	}

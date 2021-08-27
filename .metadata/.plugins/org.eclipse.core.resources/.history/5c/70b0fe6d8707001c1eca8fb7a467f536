@@ -1,6 +1,6 @@
 package exercise_3;
 
-public class FuncList {
+public class FuncList implements Func1 {
 	
 	public static boolean isOdd(int x) {
 		
@@ -13,5 +13,5 @@ public class FuncList {
 		return name + "さんは" + (point > 65 ? "合格" : "不合格");
 		
 	}
-	
+
 }

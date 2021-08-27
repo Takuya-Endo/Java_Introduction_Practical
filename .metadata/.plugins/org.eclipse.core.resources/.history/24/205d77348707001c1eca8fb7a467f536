@@ -13,5 +13,5 @@ public class FuncList {
 		return name + "さんは" + (point > 65 ? "合格" : "不合格");
 		
 	}
-	
+
 }
