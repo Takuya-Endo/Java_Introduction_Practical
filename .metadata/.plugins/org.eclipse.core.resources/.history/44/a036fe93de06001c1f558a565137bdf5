@@ -75,9 +75,7 @@ public class Exercise_1_1 {
 		System.out.println("発行順" + listBooks);
 		
 		Book book1clone = book1.clone();
-		System.out.println("");
-		System.out.println(book1);
-		System.out.println(book1clone);
+		
 		
 	}
 	

@@ -59,7 +59,7 @@ public class Book implements Comparable<Book>, Cloneable {
 	public Book clone() {
 		
 		Book bookClone = new Book(this.title, this.publishDate, this.comment);
-		return bookClone;
+		
 	}
 	
 }
