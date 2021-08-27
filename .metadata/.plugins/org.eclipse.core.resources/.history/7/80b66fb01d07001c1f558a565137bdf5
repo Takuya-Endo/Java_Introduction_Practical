@@ -7,7 +7,7 @@ public class Exercise_2 {
 		StrongBox<String> strongBox = new StrongBox<String>(KeyType.PADLOCK);
 		strongBox.put("南京錠の金庫");
 		
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 1030; i++) {
 			System.out.println(strongBox.get());
 		}
 		

@@ -22,32 +22,28 @@ public class StrongBox<Element> {
 		switch (this.keyType) {
 		case PADLOCK:
 			countPadlock++;
-			if (countPadlock >= 1_024) {
+			if () {
 				return this.element;
 			}
 			return null;
-			
 		case BUTTON:
 			countButton++;
-			if (countButton >= 10_000) {
+			if () {
 				return this.element;
 			}
 			return null;
-			
 		case DIAL:
 			countDial++;
-			if (countDial >= 30_000) {
+			if () {
 				return this.element;
 			}
 			return null;
-			
 		case FINGER:
 			countFinger++;
-			if (countFinger >= 1_000_000) {
+			if () {
 				return this.element;
 			}
 			return null;
-			
 		default:
 			return null;
 		}
