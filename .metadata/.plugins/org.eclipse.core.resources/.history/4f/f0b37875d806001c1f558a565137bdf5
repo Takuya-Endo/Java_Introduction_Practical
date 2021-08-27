@@ -48,12 +48,8 @@ public class Book implements Comparable<Book> {
 	}
 	
 	public int compareTo(Book object) {
-		if (this.publishDate.getTime() < object.publishDate.getTime()) {
+//		if (this.publishDate < object.publishDate) {
 			return -1;
-		} else if (this.publishDate.getTime() == object.publishDate.getTime()) {
-			return 0;
-		} else {
-			return 1;
 		}
 	}
 	

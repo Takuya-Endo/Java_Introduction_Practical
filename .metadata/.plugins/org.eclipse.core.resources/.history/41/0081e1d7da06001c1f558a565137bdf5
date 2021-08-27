@@ -70,9 +70,14 @@ public class Exercise_1_1 {
 		listBooks.add(book10);
 		System.out.println("");
 		System.out.println("ArrayList格納要素");
-		System.out.println("格納順" + listBooks);
+		for (Book listElement : listBooks) {
+			System.out.println(listElement);
+		}
+		System.out.println("");
+		
 		Collections.sort(listBooks);
-		System.out.println("発行順" + listBooks);
+		listBooks.split();
+		System.out.println(listBooks);
 		
 	}
 	
