@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.Consumer;
 import java.util.function.Function;
-import java.util.stream.Stream;
 
 public class Exercise_3 {
 	
@@ -46,8 +45,9 @@ public class Exercise_3 {
 		names.add("湊雄輔");
 		
 		System.out.println(names);
-		Stream<String> stream = names.stream();
-		stream.forEach(nameLenth);
+		nameLenth.accept("湊雄輔");
+//		Stream<String> stream = names.stream();
+//		boolean nameLength = stream.anyMatch();
 		
 	}
 

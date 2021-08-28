@@ -46,6 +46,7 @@ public class Exercise_3 {
 		names.add("湊雄輔");
 		
 		System.out.println(names);
+		nameLenth.accept("湊雄輔");
 		Stream<String> stream = names.stream();
 		stream.forEach(nameLenth);
 		
