@@ -1,9 +1,0 @@
-package exercise_4;
-
-public class Launcher {
-	
-	public static void launcher() {
-		
-	}
-
-}
