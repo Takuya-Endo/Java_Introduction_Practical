@@ -10,7 +10,7 @@ public class Launcher {
 		
 		Runtime runtime = Runtime.getRuntime();
 		long memoryUsage = runtime.totalMemory() - runtime.freeMemory();
-		out.println(memoryUsage);
+		out.println();
 		
 	}
 

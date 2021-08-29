@@ -1,6 +1,6 @@
 package exercise_4;
 
-import static java.lang.System.*;
+import static System.out.*;
 
 public class Launcher {
 	
@@ -10,7 +10,7 @@ public class Launcher {
 		
 		Runtime runtime = Runtime.getRuntime();
 		long memoryUsage = runtime.totalMemory() - runtime.freeMemory();
-		out.println(memoryUsage);
+		System.out.println();
 		
 	}
 
