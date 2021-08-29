@@ -14,8 +14,11 @@ public class Launcher {
 		long memoryUsage = runtime.totalMemory() - runtime.freeMemory();
 		out.println(memoryUsage);
 		
-		Method[] methods = classInfo.getDeclaredMethods();
-		for (Method method : methods) {	out.println(method); }
+		Method[] methods = classInfo.getDeclaredMethods());
+		
+		for (Method[] value : classInfo.getDeclaredMethods()) {
+			
+		}
 		
 	}
 

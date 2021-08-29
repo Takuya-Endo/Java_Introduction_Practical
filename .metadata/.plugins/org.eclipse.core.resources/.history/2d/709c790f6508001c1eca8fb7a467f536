@@ -15,7 +15,10 @@ public class Launcher {
 		out.println(memoryUsage);
 		
 		Method[] methods = classInfo.getDeclaredMethods();
-		for (Method method : methods) {	out.println(method); }
+		
+		for (Method method : methods) {
+			
+		}
 		
 	}
 
