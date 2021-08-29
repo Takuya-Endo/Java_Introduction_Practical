@@ -1,0 +1,13 @@
+package exercise_4;
+
+import java.lang.Class;
+
+public class Launcher {
+	
+	public static void launcher(Class class) {
+		
+		System.out.println("test");
+		
+	}
+
+}

@@ -6,6 +6,9 @@ public class Launcher {
 		
 		String fqcn = classInfo.getName();
 		
+		
+		System.out.println("test");
+		
 	}
 
 }

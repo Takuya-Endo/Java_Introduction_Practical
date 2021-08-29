@@ -2,9 +2,12 @@ package exercise_4;
 
 public class Launcher {
 	
-	public static void launcher(Class<?> classInfo, StartingMethod startingMethod) {
+	public static void launcher(Class<?> classInfo) {
 		
 		String fqcn = classInfo.getName();
+		
+		
+		System.out.println("test");
 		
 	}
 
