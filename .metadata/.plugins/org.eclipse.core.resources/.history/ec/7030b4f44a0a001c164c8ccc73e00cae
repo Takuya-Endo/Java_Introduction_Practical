@@ -6,8 +6,6 @@ public class Exercise_4 {
 		
 		Launcher.launcher(MemoryEater.class, StartingMethod.E);
 		
-		boolean isError = true;
-		
 		if (isError == true) {
 			
 			System.out.println("エラー発生");
