@@ -15,7 +15,7 @@ public class Exercise_4 {
 		
 		}
 		
-		System.out.println("正常終了（コード：0）");
+		System.out.println("正常終了");
 		System.exit(0);
 	}
 

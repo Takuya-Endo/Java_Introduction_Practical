@@ -6,7 +6,7 @@ public class Exercise_4 {
 		
 		Launcher.launcher(MemoryEater.class, StartingMethod.E);
 		
-		boolean isError = false;
+		boolean isError = true;
 		
 		if (isError == true) {
 			
@@ -15,7 +15,7 @@ public class Exercise_4 {
 		
 		}
 		
-		System.out.println("正常終了（コード：0）");
+		System.out.println("正常終了");
 		System.exit(0);
 	}
 
