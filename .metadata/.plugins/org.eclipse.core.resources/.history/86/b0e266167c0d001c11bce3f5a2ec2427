@@ -16,7 +16,6 @@ public class Exercise_6 {
 		try {
 			
 			Files.copy(text1Path, text2Path);
-			System.out.println("「text1.txt」ファイルをコピーし、「text2.txt」として保存しました。");
 			
 		} catch (IOException e1) {
 			
@@ -29,7 +28,6 @@ public class Exercise_6 {
 			try {
 				
 				Files.copy(text1Path, textExtraPath);
-				System.out.println("「text1.txt」ファイルをコピーし、「text" + (filesCount + 1) + ".txt」として保存しました。");
 				
 			} catch (IOException e2) {
 				
