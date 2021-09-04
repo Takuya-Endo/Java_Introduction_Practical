@@ -55,7 +55,7 @@ public class Exercise_6 {
 			FileOutputStream outputFile1 = new FileOutputStream(text0File, true);//[write]
 			BufferedOutputStream bufferedOutputFile1 = new BufferedOutputStream(outputFile1);//[write]
 			FileOutputStream zipFile = new FileOutputStream(textZipFile, true);//[write zip]
-			GZIPOutputStream zip = new GZIPOutputStream(zipFile);//[write zip]
+			GZIPOutputStream zip = new GZIPOutputStream(outputFile1);//[write zip]
 			
 			StringBuilder file1String = new StringBuilder();//[read]
 			
@@ -66,9 +66,8 @@ public class Exercise_6 {
 				file1Int = bufferedInputFile1.read();
 			}
 			bufferedOutputFile1.flush();//[write]
-			outputFile1.close();//[write]
 			zip.flush();//[write zip]
-			zip.close();//[write zip]
+			outputFile1.close();//[write]
 			System.out.println("「TEXT.txt」ファイルに、「" + file1String + "」を追記しました。");
 			
 			
