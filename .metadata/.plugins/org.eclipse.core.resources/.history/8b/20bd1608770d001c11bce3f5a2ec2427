@@ -9,9 +9,8 @@ public class Exercise_6 {
 	public static void main(String[] args) {
 		
 		Path text1Path = Paths.get("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_6\\text\\text1.txt");
-		Path text2Path = Paths.get("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_6\\text\\text2.txt");
 		
-		Files.copy(text1Path, text2Path);
+		Files.createFile(text1Path);
 		
 		
 	}

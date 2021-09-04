@@ -11,7 +11,7 @@ public class Exercise_6 {
 		Path text1Path = Paths.get("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_6\\text\\text1.txt");
 		Path text2Path = Paths.get("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_6\\text\\text2.txt");
 		
-		Files.copy(text1Path, text2Path);
+		Files.copy(textDirectory, textDirectory);
 		
 		
 	}

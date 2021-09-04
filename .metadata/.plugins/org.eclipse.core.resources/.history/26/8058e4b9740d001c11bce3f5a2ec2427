@@ -1,0 +1,25 @@
+package exercise_6;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class Exercise_6 {
+	
+	public static void main(String[] args) {
+		
+		Path text1Path = Paths.get("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_6");
+		
+		Files.createFile(text1Path, );
+		
+		
+		
+		
+//		public static Path createFile(Path path,
+//                FileAttribute<?>... attrs)
+//         throws IOException
+		
+        
+	}
+
+}
