@@ -42,17 +42,13 @@ public class Exercise_6 {
 			}	
 		}
 		
-		try (FileInputStream file1 = new FileInputStream(text1File);) {
+		try (FileOutputStream file1 = new FileOutputStream(text1File);) {
 			
-			System.out.println(file1.read());
+			file1.
 			
 		} catch (FileNotFoundException e3) {
 			
-			System.out.println(e3.getMessage());
 			
-		} catch (IOException e4) {
-			
-			System.out.println(e4.getMessage());
 			
 		}
 		

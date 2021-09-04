@@ -48,11 +48,11 @@ public class Exercise_6 {
 			
 		} catch (FileNotFoundException e3) {
 			
-			System.out.println(e3.getMessage());
+			
 			
 		} catch (IOException e4) {
 			
-			System.out.println(e4.getMessage());
+			
 			
 		}
 		

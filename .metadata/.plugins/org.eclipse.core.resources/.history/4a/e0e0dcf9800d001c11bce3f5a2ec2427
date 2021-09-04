@@ -44,15 +44,21 @@ public class Exercise_6 {
 		
 		try (FileInputStream file1 = new FileInputStream(text1File);) {
 			
-			System.out.println(file1.read());
+			try {
+				
+				System.out.println(file1.read());
+				
+			} catch (IOException e4) {
+				
+				
+				
+			} finally {
+				file1.close();
+			}
 			
 		} catch (FileNotFoundException e3) {
 			
-			System.out.println(e3.getMessage());
 			
-		} catch (IOException e4) {
-			
-			System.out.println(e4.getMessage());
 			
 		}
 		

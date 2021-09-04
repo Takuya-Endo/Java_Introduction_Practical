@@ -39,21 +39,19 @@ public class Exercise_6 {
 				System.out.println("エラー発生");
 				System.out.println(e2.getStackTrace());
 				
-			}	
-		}
-		
-		try (FileInputStream file1 = new FileInputStream(text1File);) {
+			}
 			
-			System.out.println(file1.read());
+		try {
+			
+			FileInputStream f = new FileInputStream(text1File);
 			
 		} catch (FileNotFoundException e3) {
 			
-			System.out.println(e3.getMessage());
-			
-		} catch (IOException e4) {
-			
-			System.out.println(e4.getMessage());
-			
+		} finally {
+			f.close();
+		}
+		
+		
 		}
 		
 		
