@@ -46,19 +46,18 @@ public class Exercise_6 {
 		
 		try (FileInputStream inputFile1 = new FileInputStream(text1File);) {
 			
-			FileOutputStream outputFile1 = new FileOutputStream(text0File, true);//[write]
-			
-			StringBuilder file1String = new StringBuilder();//[read]
-			int file1Int = inputFile1.read();//[read]
+			StringBuilder file1String = new StringBuilder();
+			int file1Int = inputFile1.read();
 			while (file1Int != -1) {
-				file1String.append((char) file1Int);//[read]
-				outputFile1.write(file1Int);//[write]
+				file1String.append((char) file1Int);
 				file1Int = inputFile1.read();
 			}
+			System.out.println(file1String);
 			
-			outputFile1.flush();//[write]
-			outputFile1.close();//[write]
-			System.out.println("「TEXT.txt」ファイルに、「" + file1String + "」を追記しました。");
+			FileOutputStream outputFile1 = new FileOutputStream(text1File);
+			outputFile1.write(file1Int);
+			
+			
 			
 		} catch (FileNotFoundException e3) {
 			
