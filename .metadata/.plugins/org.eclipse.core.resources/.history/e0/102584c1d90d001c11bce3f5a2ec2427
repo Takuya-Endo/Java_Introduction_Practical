@@ -31,12 +31,12 @@ public class Exercise_6 {
 			File[] files = textDirectory.listFiles();
 			int filesCount = files.length;
 			
-			Path textExtraPath = Paths.get("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_6\\text\\text" + filesCount + ".txt");
+			Path textExtraPath = Paths.get("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_6\\text\\text" + (filesCount) + ".txt");
 			
 			try {
 				
 				Files.copy(text1Path, textExtraPath);
-				System.out.println("「text1.txt」ファイルをコピーし、「text" + filesCount + ".txt」として保存しました。");
+				System.out.println("「text1.txt」ファイルをコピーし、「text" + (filesCount) + ".txt」として保存しました。");
 				
 			} catch (IOException e2) {
 				
