@@ -22,7 +22,7 @@ public class Exercise_6 {
 			File textDirectory = new File("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_6\\text");
 			File[] files = textDirectory.listFiles();
 			int filesCount = files.length;
-			System.out.println(filesCount);
+			
 			
 			
 		}

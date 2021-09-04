@@ -1,6 +1,5 @@
 package exercise_6;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -19,13 +18,13 @@ public class Exercise_6 {
 			
 		} catch (IOException e) {
 			
-			File textDirectory = new File("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_6\\text");
-			File[] files = textDirectory.listFiles();
-			int filesCount = files.length;
-			System.out.println(filesCount);
 			
 			
+		} finally {
+			close();
 		}
+		
+		
 		
 		
 	}
