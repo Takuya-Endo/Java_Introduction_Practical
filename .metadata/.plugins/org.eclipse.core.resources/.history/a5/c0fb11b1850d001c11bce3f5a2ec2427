@@ -47,8 +47,8 @@ public class Exercise_6 {
 			StringBuilder file1String = new StringBuilder();
 			int file1Int = file1.read();
 			while (file1Int != -1) {
-				file1String.append((char) file1Int);
-				file1Int = file1.read();
+				char file1Character = (char) file1Int;
+				file1String.append(file1Character);
 			}
 			System.out.println(file1String);
 			

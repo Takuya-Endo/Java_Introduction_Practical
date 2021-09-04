@@ -44,13 +44,13 @@ public class Exercise_6 {
 		
 		try (FileInputStream file1 = new FileInputStream(text1File);) {
 			
-			StringBuilder file1String = new StringBuilder();
+//			StringBuilder file1String = new StringBuilder();
 			int file1Int = file1.read();
 			while (file1Int != -1) {
-				file1String.append((char) file1Int);
+				System.out.print((char) file1Int);
 				file1Int = file1.read();
+//				file1String.append((char) file1Int);
 			}
-			System.out.println(file1String);
 			
 		} catch (FileNotFoundException e3) {
 			

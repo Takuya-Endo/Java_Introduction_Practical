@@ -48,7 +48,6 @@ public class Exercise_6 {
 			int file1Int = file1.read();
 			while (file1Int != -1) {
 				file1String.append((char) file1Int);
-				file1Int = file1.read();
 			}
 			System.out.println(file1String);
 			
