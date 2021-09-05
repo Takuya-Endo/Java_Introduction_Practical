@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.util.Properties;
+import java.util.ResourceBundle;
 
 public class Exercise_7_1 {
 	
@@ -37,12 +38,11 @@ public class Exercise_7_1 {
 			
 		}
 		
-		//classpath C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\Part1\bin exercise_7.Exercise_7_1
 		
-//		ResourceBundle resourceBundleProperties = ResourceBundle.getBundle("pref");
-//		String aichiCapital = resourceBundleProperties.getString("aichi.capital");
-//		String aichiFood = resourceBundleProperties.getString("aichi.food");
-//		System.out.println(aichiCapital + "：" + aichiFood);
+		ResourceBundle resourceBundleProperties = ResourceBundle.getBundle("..src.exercise_7.properties.pref");
+		String aichiCapital = resourceBundleProperties.getString("aichi.capital");
+		String aichiFood = resourceBundleProperties.getString("aichi.food");
+		System.out.println(aichiCapital + "：" + aichiFood);
 		
 	}
 
