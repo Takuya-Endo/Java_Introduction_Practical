@@ -32,10 +32,10 @@ public class Exercise_7_3 {
 				
 				out.println("\n以下を上書き保存");
 				out.println("-----");
-				out.println("社員名：" + tanakaTaro.name);
-				out.println("社員年齢：" + tanakaTaro.age);
 				out.println("部署名：" + generalAffairs.name);
 				out.println("部署リーダー：" + generalAffairs.leader.name);
+				out.println("担当者名：" + tanakaTaro.name);
+				out.println("担当者年齢：" + tanakaTaro.age);
 				out.println("-----");
 				
 			}
