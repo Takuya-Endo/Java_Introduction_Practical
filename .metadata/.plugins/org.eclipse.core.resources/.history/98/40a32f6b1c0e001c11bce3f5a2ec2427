@@ -46,6 +46,10 @@ public class Exercise_7_3 {
 				
 			}
 			
+			
+			
+			
+			
 		} catch (FileNotFoundException e) {
 			out.println(e.getMessage());
 		} catch (IOException e) {
@@ -54,14 +58,8 @@ public class Exercise_7_3 {
 			out.println(e.getMessage());
 		}
 		
-		out.println("\n保存されている内容を以下に出力");
-		out.println("-----");
-		out.println("社員名：" + tanakaTaro.name);
-		out.println("社員年齢：" + tanakaTaro.age);
-		out.println("部署名：" + generalAffairs.name);
-		out.println("部署リーダー：" + generalAffairs.leader.name);
-		out.println("-----");
-		out.println("\n" + generalAffairs.name + "のリーダーは" + generalAffairs.leader.name + "（" + generalAffairs.leader.age + "歳）です");
+		
+		
 		
 		
 	}

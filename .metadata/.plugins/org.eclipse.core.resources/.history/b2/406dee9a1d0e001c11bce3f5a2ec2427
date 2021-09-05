@@ -61,7 +61,7 @@ public class Exercise_7_3 {
 		out.println("部署名：" + generalAffairs.name);
 		out.println("部署リーダー：" + generalAffairs.leader.name);
 		out.println("-----");
-		out.println("\n" + generalAffairs.name + "のリーダーは" + generalAffairs.leader.name + "（" + generalAffairs.leader.age + "歳）です");
+		
 		
 		
 	}

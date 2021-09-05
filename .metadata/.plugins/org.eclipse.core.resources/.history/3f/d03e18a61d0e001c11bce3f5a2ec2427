@@ -23,6 +23,7 @@ public class Exercise_7_3 {
 		
 		out.println(generalAffairs.name + "のリーダーは" + generalAffairs.leader.name + "（" + generalAffairs.leader.age + "歳）です");
 		
+		Department ageneralAffairs;
 		
 		try {
 			
@@ -42,7 +43,7 @@ public class Exercise_7_3 {
 				out.println("-----");
 				
 				
-				generalAffairs = (Department) inCompanydata.readObject();
+				ageneralAffairs = (Department) inCompanydata.readObject();
 				
 			}
 			
@@ -58,10 +59,10 @@ public class Exercise_7_3 {
 		out.println("-----");
 		out.println("社員名：" + tanakaTaro.name);
 		out.println("社員年齢：" + tanakaTaro.age);
-		out.println("部署名：" + generalAffairs.name);
-		out.println("部署リーダー：" + generalAffairs.leader.name);
+		out.println("部署名：" + ageneralAffairs.name);
+		out.println("部署リーダー：" + ageneralAffairs.leader.name);
 		out.println("-----");
-		out.println("\n" + generalAffairs.name + "のリーダーは" + generalAffairs.leader.name + "（" + generalAffairs.leader.age + "歳）です");
+		
 		
 		
 	}

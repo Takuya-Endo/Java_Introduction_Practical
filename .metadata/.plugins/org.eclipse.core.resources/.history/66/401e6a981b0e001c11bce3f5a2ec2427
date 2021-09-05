@@ -29,7 +29,7 @@ public class Exercise_7_3 {
 			FileOutputStream outFilePlace = new FileOutputStream("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_7\\company\\company.dat", false);
 			FileInputStream inFilePlace = new FileInputStream("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_7\\company\\company.dat");
 			
-			try (ObjectOutputStream outCompanydata = new ObjectOutputStream(outFilePlace); ObjectInputStream inCompanydata = new ObjectInputStream(inFilePlace);) {
+			try (ObjectOutputStream outCompanydata = new ObjectOutputStream(outFilePlace);) {
 				
 				outCompanydata.writeObject(generalAffairs);
 				
@@ -41,27 +41,20 @@ public class Exercise_7_3 {
 				out.println("部署リーダー：" + generalAffairs.leader.name);
 				out.println("-----");
 				
-				
-				generalAffairs = (Department) inCompanydata.readObject();
-				
 			}
+			
+			
+			ObjectInputStream inCompanydata = new ObjectInputStream(inFilePlace);
+			
 			
 		} catch (FileNotFoundException e) {
 			out.println(e.getMessage());
 		} catch (IOException e) {
 			out.println(e.getMessage());
-		} catch (ClassNotFoundException e) {
-			out.println(e.getMessage());
 		}
 		
-		out.println("\n保存されている内容を以下に出力");
-		out.println("-----");
-		out.println("社員名：" + tanakaTaro.name);
-		out.println("社員年齢：" + tanakaTaro.age);
-		out.println("部署名：" + generalAffairs.name);
-		out.println("部署リーダー：" + generalAffairs.leader.name);
-		out.println("-----");
-		out.println("\n" + generalAffairs.name + "のリーダーは" + generalAffairs.leader.name + "（" + generalAffairs.leader.age + "歳）です");
+		
+		
 		
 		
 	}
