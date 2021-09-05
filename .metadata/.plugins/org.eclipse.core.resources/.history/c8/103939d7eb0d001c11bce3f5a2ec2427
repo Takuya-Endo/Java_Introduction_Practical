@@ -25,6 +25,7 @@ public class Exercise_7_1 {
 				String aichiFood = properties.getProperty("aichi.food");
 				System.out.println(aichiCapital + "：" + aichiFood);
 				
+				
 			} catch (IOException e) {
 				
 				System.out.println(e.getMessage());

@@ -21,13 +21,10 @@ public class Exercise_7_1 {
 				
 				Properties properties = new Properties();
 				properties.load(propertyFile);
-				String aichiCapital = properties.getProperty("aichi.capital");
-				String aichiFood = properties.getProperty("aichi.food");
-				System.out.println(aichiCapital + "：" + aichiFood);
 				
 			} catch (IOException e) {
 				
-				System.out.println(e.getMessage());
+				
 				
 			}
 			
@@ -36,6 +33,10 @@ public class Exercise_7_1 {
 			System.out.println(e.getMessage());
 			
 		}
+		
+		
+		
+		
 		
 		
 	}

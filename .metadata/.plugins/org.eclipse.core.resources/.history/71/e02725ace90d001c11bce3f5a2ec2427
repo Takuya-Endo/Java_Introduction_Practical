@@ -1,0 +1,13 @@
+package exercise_7;
+
+import java.util.Properties;
+
+public class Exercise_7_1 {
+	
+	public static void main(String[] args) {
+		
+		Properties properties = new Properties();
+		
+	}
+
+}

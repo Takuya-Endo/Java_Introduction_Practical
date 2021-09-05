@@ -1,0 +1,18 @@
+package exercise_7;
+
+import java.util.Properties;
+
+public class Exercise_7_1 {
+	
+	public static void main(String[] args) {
+		
+		Files prpertyPlace = new Files("C:\\Users\\home\\Desktop\\DMMWEBCAMP\\Java\\Java_Introduction_Practical\\Part1\\src\\exercise_7\\properties\\pref.properties");
+		
+		Reader reader = new FileReader();
+		
+		Properties properties = new Properties();
+		properties.load(Reader reader);
+		
+	}
+
+}
