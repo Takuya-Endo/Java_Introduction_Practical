@@ -1,9 +1,0 @@
-package exercise_3;
-
-public interface Func1 {
-	
-	@FunctionalInterface
-	
-	public abstract void process(Integer, boolean);
-
-}
