@@ -1,21 +1,17 @@
 package exercise_8;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.Socket;
 
 public class Exercise_8_2 {
 	
 	public static void main(String[] args) {
 		
-		try (Socket socket = new Socket("smtp.example.co", 60025);) {
+		try {
 			
-			InputStream inputStream = socket.getInputStream();
-			OutputStream outputStream = socket.getOutputStream();
+			Socket socket = new Socket("smtp.example.co", 60025);
 			
 		} catch (IOException e) {
-			System.out.println(e.getMessage());
 			
 		}
 		
