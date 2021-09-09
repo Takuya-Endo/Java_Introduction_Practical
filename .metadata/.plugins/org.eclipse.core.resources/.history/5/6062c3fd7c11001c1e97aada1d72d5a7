@@ -14,7 +14,11 @@ public class Exercise_8_1 {
 			
 			URL url = new URL("https://dokojava.jp/favicon.ico");
 			InputStream inputStream = url.openStream();
-			fileOutputStream.write(inputStream.read());
+			int data = inputStream.read();
+			while (data != 1) {
+				fileOutputStream.write(data);
+				data = inputStream.read();
+			}
 			fileOutputStream.flush();
 			System.out.println("「https://dokojava.jp/favicon.ico」を");
 			System.out.println("「C:\\\\Users\\\\home\\\\Desktop\\\\DMMWEBCAMP\\\\Java\\\\Java_Introduction_Practical\\\\Part1\\\\src\\\\exercise_8\\\\ico\\\\dj.ico」に保存しました");
