@@ -22,13 +22,17 @@ public class Exercise_8_3 {
 			HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 			String body = response.body();
 			int status = response.statusCode();
-			System.out.println(body);
-			System.out.println(status);
+			
+			String[] bodies = body.split(",");
+			for (String value : bodies) {
+				System.out.println(value);
+			}
+			System.out.println("\n" + status + "\n");
 			
 			ObjectMapper mapper = new ObjectMapper();
 			JsonNode jsonFile = mapper.readTree(body);
-			JsonNode url = jsonFile.get("url");
-			System.out.println(url);
+			JsonNode blogUrl = jsonFile.get("blog");
+			System.out.println("ブログURL\n" + blogUrl);
 			
 		} catch (InterruptedException e) {
 			System.out.println(e.getMessage());
