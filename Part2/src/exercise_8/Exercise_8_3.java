@@ -8,6 +8,9 @@ import java.net.http.HttpClient.Version;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class Exercise_8_3 {
 	
 	public static void main(String[] args) {
@@ -22,7 +25,10 @@ public class Exercise_8_3 {
 			System.out.println(body);
 			System.out.println(status);
 			
-			
+			ObjectMapper mapper = new ObjectMapper();
+			JsonNode jsonFile = mapper.readTree(body);
+			JsonNode url = jsonFile.get("url");
+			System.out.println(url);
 			
 		} catch (InterruptedException e) {
 			System.out.println(e.getMessage());
