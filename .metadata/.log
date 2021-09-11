@@ -4435,3 +4435,18 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 14:10:22.619
 !MESSAGE executing callback sts4.classpath.wjGIeARc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 15:09:53.540
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 15:09:53.566
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 15:09:53.573
+!MESSAGE buffering callback sts4.classpath.wjGIeARc Part2 false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 15:09:53.591
+!MESSAGE executing callback sts4.classpath.wjGIeARc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-11 15:09:53.678
+!MESSAGE executing callback sts4.classpath.wjGIeARc SUCCESS [done]
