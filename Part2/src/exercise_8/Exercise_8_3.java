@@ -15,10 +15,12 @@ public class Exercise_8_3 {
 		try {
 			
 			HttpClient client = HttpClient.newBuilder().version(Version.HTTP_1_1).followRedirects(Redirect.NORMAL).build();
-			HttpRequest request = HttpRequest.newBuilder().uri(URI.create("")).GET().build();
+			HttpRequest request = HttpRequest.newBuilder().uri(URI.create("https://api.github.com/users/miyabilink")).GET().build();
 			HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 			String body = response.body();
 			int status = response.statusCode();
+			System.out.println(body);
+			System.out.println(status);
 			
 		} catch (InterruptedException e) {
 			System.out.println(e.getMessage());
