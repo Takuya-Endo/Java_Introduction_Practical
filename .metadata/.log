@@ -5141,3 +5141,18 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-12 12:08:53.098
 !MESSAGE executing callback sts4.classpath.cSRbmtYo SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-13 00:12:54.526
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-13 00:12:54.592
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-13 00:12:54.607
+!MESSAGE buffering callback sts4.classpath.cSRbmtYo Part2 false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-13 00:12:54.621
+!MESSAGE executing callback sts4.classpath.cSRbmtYo 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-09-13 00:12:54.825
+!MESSAGE executing callback sts4.classpath.cSRbmtYo SUCCESS [done]
