@@ -4,8 +4,13 @@ public class Exercise_9_1 {
 	
 	public static void main(String[] args) {
 		
-		Class.forName("org.h2.Driver");
+		try {
 		
+			Class.forName("org.h2.Driver");
+		
+		} catch (ClassNotFoundException e) {
+			System.out.println(e.getMessage());
+		}
 	}
 	
 }
