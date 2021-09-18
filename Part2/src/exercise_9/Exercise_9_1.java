@@ -11,18 +11,18 @@ public class Exercise_9_1 {
 		try {
 		
 			Class.forName("org.h2.Driver");
-			
 			Connection connection = null;
+			connection = DriverManager.getConnection("jdbc:h2:~/exercise_9_1");
 			
-			connection = DriverManager.getConnection("jdbc:h2:~/exercise_9");
+			
+			
+			connection.close();
 		
 		} catch (ClassNotFoundException e) {
 			System.out.println(e.getMessage());
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
 		}
-		
-		
 		
 	}
 	
