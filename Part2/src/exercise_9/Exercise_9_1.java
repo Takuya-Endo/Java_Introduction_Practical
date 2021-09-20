@@ -14,7 +14,9 @@ public class Exercise_9_1 {
 			Connection connection = null;
 			connection = DriverManager.getConnection("jdbc:h2:~/exercise_9_1");
 			
-			
+			if (connection != null) {
+				
+			}
 			
 			connection.close();
 		
