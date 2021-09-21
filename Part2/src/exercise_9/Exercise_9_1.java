@@ -9,22 +9,34 @@ public class Exercise_9_1 {
 	public static void main(String[] args) {
 		
 		try {
-		
 			Class.forName("org.h2.Driver");
-			Connection connection = null;
-			connection = DriverManager.getConnection("jdbc:h2:~/exercise_9_1");
-			
-			if (connection != null) {
-				
-			}
-			
-			connection.close();
-		
 		} catch (ClassNotFoundException e) {
 			System.out.println(e.getMessage());
+		}
+		Connection connection = null;
+		try {
+			connection = DriverManager.getConnection("jdbc:h2:~/exercise_9_1");
+			
+			
+			
+			
+			
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
+		} finally {
+			if (connection == null) {
+				System.out.println("ERROR");
+			} else {
+				try {
+					connection.close();
+					System.out.println("OK");
+				} catch (SQLException e) {
+					System.out.println(e.getMessage());
+				}
+			}
 		}
+		
+		
 		
 	}
 	
