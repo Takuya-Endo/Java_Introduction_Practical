@@ -2,6 +2,7 @@ package exercise_9;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class Exercise_9_1 {
@@ -18,7 +19,7 @@ public class Exercise_9_1 {
 			connection = DriverManager.getConnection("jdbc:h2:~/exercise_9_1");
 			
 			
-			
+			PreparedStatement reparedStatement = connection.PreparedStatement();
 			
 			
 		} catch (SQLException e) {
