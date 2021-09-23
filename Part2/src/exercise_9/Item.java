@@ -20,4 +20,8 @@ public class Item {
 	public void setPrice(int price) { this.price = price; }
 	public void setWeight(int weight) { this.weight = weight; }
 	
+	public String toString() {
+		return "名前：" + this.name + "／値段：" + this.price + "円／重さ：" + this.weight + "g";
+	}
+	
 }

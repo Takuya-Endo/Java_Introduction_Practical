@@ -56,6 +56,9 @@ public class Exercise_9_1 {
 				System.out.println(resultSet.getString("NAME"));
 				System.out.println(resultSet.getInt("PRICE"));
 				System.out.println(resultSet.getInt("WEIGHT"));
+				
+				Item itemA = new Item(resultSet.getString("NAME"), resultSet.getInt("PRICE"), resultSet.getInt("WEIGHT"));
+				System.out.println(itemA + "\n");
 			}
 			
 			preparedStatement.setString(1, "どくけしそう");
@@ -64,8 +67,10 @@ public class Exercise_9_1 {
 				System.out.println(resultSet.getString("NAME"));
 				System.out.println(resultSet.getInt("PRICE"));
 				System.out.println(resultSet.getInt("WEIGHT"));
+				
+				Item itemB = new Item(resultSet.getString("NAME"), resultSet.getInt("PRICE"), resultSet.getInt("WEIGHT"));
+				System.out.println(itemB + "\n");
 			}
-			
 			
 			preparedStatement.close();
 			
