@@ -12,9 +12,9 @@ public class Main {
 		
 		for (Item item : items) {
 			
-//			System.out.printf('%10s%4d%4d', item.getName(), item.getPrice(), item.getWeight());
+			System.out.printf("%10s%4d%4d", item.getName(), item.getPrice(), item.getWeight());
 			
-			System.out.println(item + "\n");
+//			System.out.println(item + "\n");
 			
 		}
 		
