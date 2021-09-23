@@ -18,9 +18,13 @@ public class Exercise_9_1 {
 		try {
 			connection = DriverManager.getConnection("jdbc:h2:~/exercise_9_1");
 			
+			PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO ITEMS (NAME, PRICE, WEIGHT) VALUES (?, ?, ?)");
+			preparedStatement.setString(1, "やくそう");
+			preparedStatement.setInt(2, 5);
+			preparedStatement.setInt(3, 2);
 			
-			PreparedStatement reparedStatement = connection.PreparedStatement();
-			
+			int result = preparedStatement.executeUpdate();
+			System.out.println(result);
 			
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
