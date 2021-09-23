@@ -2,6 +2,8 @@ package exercise_9;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class Exercise_9_1 {
@@ -42,8 +44,29 @@ public class Exercise_9_1 {
 //			
 //			preparedStatement.setString(1, "どくけしそう");
 //			preparedStatement.executeUpdate();
+//			
+//			System.out.println("ITEMSテーブル準備完了");
 			
-			System.out.println("ITEMSテーブル準備完了");
+			//データ検索
+			PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM ITEMS WHERE NAME = ?");
+			
+			preparedStatement.setString(1, "やくそう");
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while (resultSet.next()) {
+				System.out.println(resultSet.getString("NAME"));
+				System.out.println(resultSet.getInt("PRICE"));
+				System.out.println(resultSet.getInt("WEIGHT"));
+			}
+			
+			preparedStatement.setString(1, "どくけしそう");
+			resultSet = preparedStatement.executeQuery();
+			while (resultSet.next()) {
+				System.out.println(resultSet.getString("NAME"));
+				System.out.println(resultSet.getInt("PRICE"));
+				System.out.println(resultSet.getInt("WEIGHT"));
+			}
+			
+			
 			preparedStatement.close();
 			
 		} catch (SQLException e) {
