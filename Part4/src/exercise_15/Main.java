@@ -4,9 +4,9 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		MyLogger logger1 = ;
+		MyLogger logger1 = new MyLogger();
 		logger1.log("first");
-		MyLogger logger2 = ;
+		MyLogger logger2 = new MyLogger();
 		logger2.log("second");
 		
 	}
