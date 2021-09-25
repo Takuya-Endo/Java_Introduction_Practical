@@ -6,14 +6,14 @@ public class CountUpThread extends Thread {
 	
 	public void run() {
 		
-		for (int i = 0; i < 11; i++) {
+		for (int i = 0; i <= 10; i++) {
 			
 			try {
 				TimeUnit.SECONDS.sleep(1);
 			} catch (InterruptedException e) {
 				System.out.println(e.getMessage());
 			}
-			System.out.print(i + " ");
+			System.out.print(i + ", ");
 		}
 		
 	}
