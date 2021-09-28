@@ -5,9 +5,12 @@ package exercise_10;
 public class Exercise_10_1 {
 	
 	/** 銀行名 */
-	String name ;
+	private String name ;
 	/** 銀行の住所 */
-	String address;
+	private String address;
+	
+	public String getName() { return this.name; }
+	public String getAddress() { return this.address; }
 	
 	/** 口座追加メソッド
 	 * 口座名義人と初回残高を引数に取り、新たに口座を追加します。
@@ -20,5 +23,7 @@ public class Exercise_10_1 {
 		System.out.println("試験用のメインメソッドです");
 		
 	}
-
+	
+	
+	
 }
