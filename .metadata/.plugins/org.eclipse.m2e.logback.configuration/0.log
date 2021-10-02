@@ -503,3 +503,20 @@
 2021-10-02 11:39:04,675 [Worker-39: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-10-02 11:39:04,704 [Worker-39: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-10-02 11:39:04,717 [Worker-39: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-02 12:29:00,763 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2021-10-02 12:35:09,618 [Worker-71: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.9.1/maven-site-plugin-3.9.1.jar のダウンロード中
+2021-10-02 12:35:10,470 [Worker-71: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-site-plugin/3.9.1/maven-site-plugin-3.9.1.jar
+2021-10-02 12:35:11,358 [Worker-71: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:maven-test:0.0.1-SNAPSHOT @ C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\maven-test\pom.xml.
+2021-10-02 12:35:11,737 [Worker-71: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-02 12:35:11,746 [Worker-71: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-02 12:35:11,752 [Worker-71: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-02 12:35:11,767 [Worker-71: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-02 12:35:33,157 [Worker-72: Executing install in C__Users_home_Desktop_DMMWEBCAMP_Java_Java_Introduction_Practical_maven-test の起動] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\maven-test
+2021-10-02 12:35:33,158 [Worker-72: Executing install in C__Users_home_Desktop_DMMWEBCAMP_Java_Java_Introduction_Practical_maven-test の起動] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-10-02 12:35:45,922 [Worker-71: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-02 12:35:45,927 [Worker-71: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-02 12:35:45,930 [Worker-71: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-02 12:35:45,935 [Worker-71: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-02 12:41:58,721 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2021-10-02 12:42:23,378 [Worker-71: maven-test の起動] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\maven-test
+2021-10-02 12:42:23,379 [Worker-71: maven-test の起動] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B site
