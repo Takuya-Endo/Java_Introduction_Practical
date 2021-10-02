@@ -10742,3 +10742,30 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-02 10:11:33.207
 !MESSAGE executing callback sts4.classpath.YxDFqbMs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-02 10:34:26.270
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-02 10:34:26.320
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-02 10:34:26.326
+!MESSAGE buffering callback sts4.classpath.YxDFqbMs maven-test false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-02 10:34:26.332
+!MESSAGE executing callback sts4.classpath.YxDFqbMs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-02 10:34:26.375
+!MESSAGE executing callback sts4.classpath.YxDFqbMs SUCCESS [done]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-10-02 10:34:27.063
+!MESSAGE Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-10-02 10:34:27.109
+!MESSAGE Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-10-02 11:08:28.042
+!MESSAGE Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-10-02 11:08:28.096
+!MESSAGE Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
