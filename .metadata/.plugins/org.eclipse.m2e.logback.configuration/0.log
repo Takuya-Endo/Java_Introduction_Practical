@@ -520,3 +520,20 @@
 2021-10-02 12:41:58,721 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
 2021-10-02 12:42:23,378 [Worker-71: maven-test の起動] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\maven-test
 2021-10-02 12:42:23,379 [Worker-71: maven-test の起動] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B site
+2021-10-03 11:31:10,266 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-10-03 11:34:18,086 [Worker-3: プロジェクト "exercise_10_1" の作成中] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SecondLap:exercise_10_1:0.0.1-SNAPSHOT @ C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\exercise_10_1\pom.xml.
+2021-10-03 11:34:21,487 [Worker-3: プロジェクト "exercise_10_1" の作成中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exercise_10_1/src/main/java
+2021-10-03 11:34:21,493 [Worker-3: プロジェクト "exercise_10_1" の作成中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exercise_10_1/src/main/resources
+2021-10-03 11:34:21,496 [Worker-3: プロジェクト "exercise_10_1" の作成中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exercise_10_1/src/test/java
+2021-10-03 11:34:21,497 [Worker-3: プロジェクト "exercise_10_1" の作成中] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exercise_10_1/src/test/resources
+2021-10-03 11:34:24,217 [Worker-3: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-03 11:34:24,273 [Worker-3: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-03 11:34:24,281 [Worker-3: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-03 11:34:24,305 [Worker-3: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-03 11:35:23,366 [Worker-3: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-03 11:35:23,383 [Worker-3: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-03 11:35:23,391 [Worker-3: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-03 11:35:23,421 [Worker-3: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-03 11:37:19,534 [Worker-15: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-03 11:37:19,544 [Worker-15: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-03 11:37:19,549 [Worker-15: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
