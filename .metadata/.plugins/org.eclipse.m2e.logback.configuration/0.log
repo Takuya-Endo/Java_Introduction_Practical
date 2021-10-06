@@ -645,3 +645,8 @@
 2021-10-04 19:00:17,212 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-10-04 19:00:17,213 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-10-04 19:00:17,214 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-05 19:17:19,171 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-10-05 19:18:59,592 [Worker-7: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-05 19:18:59,607 [Worker-7: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-05 19:18:59,614 [Worker-7: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-10-05 19:18:59,616 [Worker-7: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
