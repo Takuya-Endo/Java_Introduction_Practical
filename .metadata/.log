@@ -12320,3 +12320,221 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.eclipse.ui 2 2 2021-10-05 19:19:18.475
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-10-07 03:26:03.264 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-10-07 03:26:37.306
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-10-07 03:26:37.306
+!MESSAGE CTRL+SHIFT+T の競合が発生しました:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,型を開く,
+		型を Java エディターで開きます,
+		Category(org.eclipse.ui.category.navigate,ナビゲート,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bdb6b36,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,ワークスペース内のシンボルにジャンプ,
+		,
+		Category(org.eclipse.lsp4e.category,言語サーバー,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@381d7c4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-10-07 03:27:36.535
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-10-07 03:27:36.535
+!MESSAGE CTRL+SHIFT+C の競合が発生しました:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,行コメントの切り替え,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E 言語構成,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4b145278,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,コメントの切り替え,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring 汎用テキスト・エディター,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d51de61,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:29:12.539
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457279994\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:29:12.562
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457279994\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:29:12.583
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457279994\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:29:12.605
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457279994\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:29:38.366
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457279994\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:29:38.375
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457279994\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:29:38.398
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457279994\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:29:38.543
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457279994\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:30:59.666
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457400315\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:30:59.690
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457400315\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:30:59.712
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457400315\META-INF\MANIFEST.MF.
+
+!ENTRY mergedoc.encoding 2 0 2021-10-07 03:30:59.734
+!MESSAGE ファイルが見つかりません: C:\Users\home\AppData\Local\Temp\zip1457400315\META-INF\MANIFEST.MF.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:31:37.615
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:31:37.622
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@12326ccb[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=1002)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:31:37.661
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:31:38.008
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2021-10-07 03:31:43.717
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-10-07 03:31:43.717
+!MESSAGE CTRL+- の競合が発生しました:
+Binding(CTRL+-,
+	ParameterizedCommand(Command(junit.extensions.eclipse.quick.pde.command.PDEJUnitRunAction,JUnit Plug-in テスト,
+		PDE JUnitでテストを実行します．,
+		Category(junit.extensions.eclipse.quick.command.category,Quick JUnit,Quick JUnitアクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5af2f934,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+-,
+	ParameterizedCommand(Command(org.eclipse.gef.zoom_out,ズームアウト,
+		ズームアウト,
+		Category(org.eclipse.gef.category.view,ビュー,ビュー,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66d8d02e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+-,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.zoomOut,ズームアウト,
+		テキストのズーム・アウト - テキスト・エディターのデフォルト・フォント・サイズを小さくします,
+		Category(org.eclipse.ui.category.textEditor,テキスト編集,テキスト編集コマンド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@571802f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:13.322
+!MESSAGE 起動から初期化までの Boot LS 起動時間: 35605ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.430
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SxaGWJfTisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.458
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.480
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.510
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.515
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.544
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SxaGWJfT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.577
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.600
+!MESSAGE buffering callback sts4.classpath.SxaGWJfT exercise_10_1 false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.623
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.647
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.656
+!MESSAGE buffering callback sts4.classpath.SxaGWJfT Part1 false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.663
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.670
+!MESSAGE classpath=6 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.677
+!MESSAGE buffering callback sts4.classpath.SxaGWJfT Part2 false 6
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.682
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.689
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.695
+!MESSAGE buffering callback sts4.classpath.SxaGWJfT Part3 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.701
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.709
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.715
+!MESSAGE buffering callback sts4.classpath.SxaGWJfT Part4 false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.722
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.729
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.734
+!MESSAGE buffering callback sts4.classpath.SxaGWJfT maven-test false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:14.742
+!MESSAGE executing callback sts4.classpath.SxaGWJfT 6 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-10-07 03:32:16.755
+!MESSAGE executing callback sts4.classpath.SxaGWJfT FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-10-07 03:32:16.782
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-10-07 03:56:45.668
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
