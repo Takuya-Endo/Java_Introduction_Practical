@@ -675,3 +675,19 @@
 2021-10-07 04:16:34,330 [Worker-25: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
 2021-10-07 04:16:34,357 [Worker-25: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-10-07 04:16:34,362 [Worker-25: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-07 04:16:34,371 [Worker-25: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-07 04:20:04,831 [Worker-23: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-07 04:20:04,841 [Worker-23: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-07 04:20:04,847 [Worker-23: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-07 04:20:04,883 [Worker-23: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-07 04:21:57,326 [Worker-24: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SecondLap:exercise_11_sample:0.0.1-SNAPSHOT @ C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\exercise_11_sample\pom.xml.
+2021-10-07 04:21:57,915 [Worker-24: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-07 04:21:57,922 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-07 04:21:57,926 [Worker-24: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-07 04:21:57,947 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-07 04:27:04,807 [Worker-24: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar のダウンロード中
+2021-10-07 04:27:05,096 [Worker-24: ビルド] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar
+2021-10-07 04:27:07,605 [Worker-24: ビルド] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SecondLap:exercise_11_sample:0.0.1-SNAPSHOT @ C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\exercise_11_sample\pom.xml.
+2021-10-07 04:27:08,184 [Worker-24: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-10-07 04:27:08,190 [Worker-24: ビルド] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-10-07 04:27:08,200 [Worker-24: ビルド] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS932 actually) to copy filtered resources, i.e. build is platform dependent!
