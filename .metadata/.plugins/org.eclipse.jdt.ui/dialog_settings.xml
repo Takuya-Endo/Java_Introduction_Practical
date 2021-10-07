@@ -27,9 +27,9 @@
 		<item key="notree" value="false"/>
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="false"/>
-		<item key="source" value="1.5"/>
-		<item key="antpath" value="C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\exercise_10_1\javadoc.xml"/>
-		<item key="destdir" value="C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\exercise_10_1\doc"/>
+		<item key="source" value="11"/>
+		<item key="antpath" value="C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\Part3\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\Part3\src\exercise_10_SecondLap\docExercise_10"/>
 		<item key="additionalparam" value="-encoding UTF-8&#x0D;&#x0A;-charset UTF-8"/>
 		<section name="projects">
 			<section name="Part1">
@@ -44,7 +44,7 @@
 			</section>
 			<section name="Part3">
 				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\Part3\doc"/>
+				<item key="destdir" value="C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\Part3\src\exercise_10_SecondLap\docExercise_10"/>
 				<item key="antpath" value="C:\Users\home\Desktop\DMMWEBCAMP\Java\Java_Introduction_Practical\Part3\javadoc.xml"/>
 			</section>
 			<section name="Part4">
@@ -120,5 +120,12 @@
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
 			<item value="Part3/src/exercise_10_SecondLap/Exercise_10_1.jar"/>
 		</list>
+	</section>
+	<section name="JavadocWizardDialog">
+		<item key="DIALOG_X_ORIGIN" value="237"/>
+		<item key="DIALOG_Y_ORIGIN" value="14"/>
+		<item key="DIALOG_WIDTH" value="842"/>
+		<item key="DIALOG_HEIGHT" value="567"/>
+		<item key="DIALOG_FONT_NAME" value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI"/>
 	</section>
 </section>
